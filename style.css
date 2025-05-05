@@ -1,1 +1,51 @@
-*
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+}
+
+li {
+    list-style: none;
+}
+
+.flex {
+    display: flex;
+
+}
+
+.spaceBetween {
+    justify-content: space-between;
+}
+
+.alignCenter {
+    align-items: center;
+}
+
+.container {
+    max-width: 1000px;
+    margin: auto;
+}
+
+.w25{
+    width: 25%;
+}
+.w40{
+    width: 40%;
+}
+/* HEADER */
+.logo {
+    width: 200px;
+}
+
+.menu {
+    width: 30%;
+}
+
+header {
+    margin-top: 20px;
+}
